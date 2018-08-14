@@ -18,22 +18,20 @@
 <body>
   <header class="container" id="home">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Incredible Orchids</a>
+      <a class="navbar-brand" href="https://chief7071.github.io/incredible-shop/">Incredible Orchids</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link smooth" href="https://chief7071.github.io/incredible-shop/">Home<span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link smooth" href="https://chief7071.github.io/incredible-shop/">Products</a>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#about">About Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link smooth" href="https://chief7071.github.io/incredible-shop/">Contacts</a>
+           <li class="nav-item">
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#cont">Contacts</a>
           </li>
         </ul>
+        
         <div>
           <a class="nav-link" href="#cartModal" data-toggle="modal">
                       <i class="fab fa-opencart fa-spin" aria-hidden="true"></i>
@@ -74,10 +72,34 @@
     </section>
   </main>
 
+
+
+ <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">4</a></li>
+      <li class="page-item"><a class="page-link" href="#">5</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+
+
   <footer class="container">
     <h2 id="contacts">Contact us</h2>
     <p>Somewhere on the planet Earth...</p>
   </footer>
+
+
+
+
 
   <!-- Modal Product Info -->
   <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
@@ -137,41 +159,69 @@
   </div>
 
 
-  <nav aria-label="Page navigation example">
-    <ul class="pagination justify-content-center">
-      <li class="page-item disabled">
-        <a class="page-link" href="#" tabindex="-1">Previous</a>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item"><a class="page-link" href="#">4</a></li>
-      <li class="page-item"><a class="page-link" href="#">5</a></li>
-      <li class="page-item">
-        <a class="page-link" href="#">Next</a>
-      </li>
-    </ul>
-  </nav>
-<form action="https://formspree.io/kxmb382@gmail.com"
-      method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-  <script async src="js/smooth-scroll.js"></script>
-  <script async src="js/alert-window.js"></script>
-  <script defer src="js/cart.js"></script>
-  <script defer src="js/product-list.js"></script>
-  <script defer src="js/index.js"></script>
+ 
+<!-- Modal about-->
+<div class="modal fade bd-example-modal-lg" id="about" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">We are a unique shop focused only on orchids. The store was founded by Artem Fominov in Lviv in 2018</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+				</div>
+				<div class="modal-body">
+				  <h1>Incredible Orchids</h1>
+				<img class="w-100" src="img/about.jpg" alt="about">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>.                
+	
+<!-- Modal contacts-->
+<div class="modal fade bd-example-modal-lg" id="cont" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Our contact phones: +380-93-927-37-43 +380-97-927-37-43                                Email: kxmb382@gmail.com , chief7777@gmail.com                                           Adress: s. Lviv, str. Promuslova 50/52<h5>
+					  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12234.845039250795!2d24.045785643477064!3d49.86013008134539!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1496302855624" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+				</div>
+				<div class="modal-body">
+				  <h1>Incredible Orchids Adress</h1>
+				<img class="w-100" src="img/contact.png" alt="contacts">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>            
+		
+
+	
+ 
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin=" anonymous "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js " integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh " crossorigin="anonymous "></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js " integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ " crossorigin="anonymous "></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js "></script>
+
+  <script async src="js/smooth-scroll.js "></script>
+  <script async src="js/alert-window.js "></script>
+  <script defer src="js/cart.js "></script>
+  <script defer src="js/product-list.js "></script>
+  <script defer src="js/index.js "></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122948040-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122948040-1 "></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -182,3 +232,6 @@
 </body>
 
 </html>
+
+
+

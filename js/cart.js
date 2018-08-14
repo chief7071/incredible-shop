@@ -77,6 +77,7 @@ class Cart {
                 data: {
                     clientName: $('#client-name').val(),
                     clientEmail: $('#client-email').val(),
+                    clientPhone: $('#client-phone').val(),
                     cart: this.cart
                 },
                 dataType: "json"
