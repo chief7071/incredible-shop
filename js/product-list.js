@@ -54,7 +54,7 @@ class ProductList {
             const button = $(event.target);
             const id  = button.data('id'); 
             this.cart.addProduct(id);
-            window.showAlert('Product added to cart');
+            window.showAlert('Product was successfully added to cart');
         });
     }
 }

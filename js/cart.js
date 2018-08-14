@@ -72,7 +72,7 @@ class Cart {
         if (form.checkValidity()) {
             ev.preventDefault();
             $.ajax({
-                url: "https://formspree.io/YOUR_EMAIL_HERE", 
+                url: "https://formspree.io/kxmb382@gmail.com", 
                 method: "POST",
                 data: {
                     clientName: $('#client-name').val(),
@@ -87,7 +87,7 @@ class Cart {
                  this.saveCart();
                  this.updateBadge();
                  this.renderCart();
-                 window.showAlert('Thank you for your order');
+                 window.showAlert('Thank you for your order ');
                  this.cartContainer.modal('hide');
              } )
              .fail( () =>

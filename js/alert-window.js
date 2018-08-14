@@ -10,5 +10,7 @@ function showAlert(message, success = true) {
     alertElement.alert();
     setTimeout(() => {
         $('.alert').alert('close');
-    }, 1000);
+    }, 3500);
 }
+
+

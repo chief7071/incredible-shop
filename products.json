@@ -1,51 +1,85 @@
-[
-    {
+[{
         "id": "1",
-        "title": "Phalenopsis pink",
+        "title": "PINK ORCHID PHALENOPSIS",
         "image": "pink-orchid.jpg",
-        "description": "Incredible pink phalenopsis-orchid (80cm)",
-        "price": 80.00
+        "description": "Pink phalenopsis orchid (80cm)",
+        "price": 30
     },
     {
         "id": "2",
-        "title": "Small drone",
+        "title": "WHITE ORCHID PHALENOPSIS",
         "image": "white-orhid.jpg",
-        "description": "Small drone. Can fly undetected.",
-        "price": 199.99
+        "description": "WHITE ORCHID PHALENOPSIS",
+        "price": 25
     },
     {
         "id": "3",
-        "title": "Blue drone",
+        "title": "PURPLE ORCHID PHALENOPSIS",
         "image": "purple-orchid.jpg",
-        "description": "Nice-looking drone in blue color. Has built-in HD camera",
-        "price": 249.99
+        "description": "Purple phalenopsis orchid (80cm)",
+        "price": 35
     },
     {
         "id": "4",
-        "title": "Red drone",
-        "image": "pink-orchid.jpg",
-        "description": "Nice-looking drone in red color",
-        "price": 229.99
+        "title": "YELLOW ORCHID PHALENOPSIS",
+        "image": "yellow-orchid.jpg",
+        "description": "Yellow phalenopsis orchid (80cm)",
+        "price": 40
     },
     {
         "id": "5",
-        "title": "Black gyroboard",
-        "image": "yellow-orchid.jpg",
-        "description": "Black gyroboard to match your style",
-        "price": 729.99
+        "title": "YELLOW ONCHIDIUM ORCHID",
+        "image": "small-yellow-orchid.jpg",
+        "description": "Yellow onchidium orchid (70cm)",
+        "price": 60
     },
     {
         "id": "6",
-        "title": "White gyroboard",
-        "image": "small-red-orchid.jpg",
-        "description": "White gyroboard with blue lights",
-        "price": 829.99
+        "title": "EXCLUSIVE ORCHID TERRARIUM",
+        "image": "orchid-terrarium.jpg",
+        "description": "3 Phalenopsis orchid with some grass",
+        "price": 250
     },
     {
         "id": "7",
-        "title": "Tesla Model X",
+        "title": "3 COLOR DENROBIUM ORCHIDS",
+        "image": "orchid-3color.jpg",
+        "description": "3 colour dendrobium (70cm) (easy to care)",
+        "price": 180
+    },
+    {
+        "id": "8",
+        "title": "WHITE DENDROBIUM ORCHID",
+        "image": "white-dendrobium.jpg",
+        "description": "White dendrobium orchid (60cm)",
+        "price": 58
+    },
+    {
+        "id": "9",
+        "title": "RED ORCHID PHALENOPSIS",
+        "image": "small-red-orchid.jpg",
+        "description": "Red phalenopsis orchid (60cm)",
+        "price": 40
+    },
+    {
+        "id": "10",
+        "title": "BLUE ORCHID PHALENOPSIS",
         "image": "blue-orchid.jpg",
-        "description": "Best crossover in the World",
-        "price": 99999.99
+        "description": "Blue phalenopsis orchid (90cm)",
+        "price": 90
+    },
+    {
+        "id": "11",
+        "title": "AWESOME PURPLE ORCHID",
+        "image": "purple-blue-orchid.jpg",
+        "description": "Purple phalenopsis orchid (90cm)",
+        "price": 95
+    },
+    {
+        "id": "12",
+        "title": "ORANGE ORCHID PHALENOPSIS",
+        "image": "orange-orchid.jpg",
+        "description": "Orange phalenopsis orchid (70cm)",
+        "price": 46
     }
 ]
