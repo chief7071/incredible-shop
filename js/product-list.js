@@ -16,7 +16,7 @@ class ProductList {
         let productListDomString = ''
         products.forEach(product => {
             productListDomString += 
-                `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                `<div class="card col-12 col-md-6 col-lg-4 wew bounceInLeft">
                   <div class="card product">
                     <img class="card-img-top" src="img/products/${product.image}" 
                         alt="${product.title}">
