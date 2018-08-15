@@ -1,24 +1,25 @@
 body {
-	background: url(../img/background.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	margin: auto;
-	padding: 0 5px;
+    background: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    padding: 0 5px;
 }
 
 .pagination {
-text-align: center;
-justify-content: center;
+    text-align: center;
+    justify-content: center;
 }
+
 .card {
     height: 100%;
 }
 
 .alert {
     position: fixed;
-    top: 50px; 
+    top: 50px;
     width: 50%;
     left: 25%;
     z-index: 1051;
@@ -27,3 +28,18 @@ justify-content: center;
 .btn {
     padding: 0.75rem 0.7rem;
 }
+
+.footer {
+    text-align: center;
+
+}
+.footer li {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
